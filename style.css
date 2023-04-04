@@ -8,6 +8,7 @@
     --azul: hsl(233, 100%, 69%);
     --azul-oscuro: hsl(210, 10%, 33%);
     --gris: hsl(201, 11%, 66%);
+    --blanco: #FFF;
 
 
 
@@ -34,4 +35,59 @@ html {
 body {
     font-family: var(--font-family);
     font-size: var(--font-size);
+    text-align: center; 
 }
+
+/* ---- header ----*/
+
+.header {
+    margin-bottom: 100px;
+    background: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    padding: 0 15px;
+}
+
+.header__logo {
+    margin-top: 100px;
+}
+
+.header__title {
+    font-size: calc(var(--font-size) + 14px);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header__pgraph {
+    margin-bottom: 40px;
+}
+
+.header__container-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__buttons {
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: var(--blanco);
+    letter-spacing: 2px;
+}
+
+.header__buttons:hover {
+    cursor: pointer;
+}
+
+.header__buttons:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.header__button-one {
+    background-color: var(--verde);
+    border-color: var(--verde);
+}
+
+.header__button-two {
+    background-color: var(--azul);
+    border-color: var(--azul);
+}
+
