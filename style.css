@@ -38,6 +38,19 @@ body {
     text-align: center; 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--azul-oscuro);
+}
+
+p{
+    color: var(--gris);
+}
+
 /* ---- header ----*/
 
 .header {
@@ -91,3 +104,34 @@ body {
     border-color: var(--azul);
 }
 
+/* ---- main ---- */
+
+.main {
+    padding: 0 15px;
+    margin-bottom: 100px;
+}
+
+.main__title {
+    margin-bottom: 20px;
+}
+
+.main__pgraph {
+    margin-bottom: 70px;
+}
+
+.main__image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main__characteristics {
+    margin-bottom: 50px;
+}
+
+.main__title-charateristics {
+    margin-bottom: 15px;
+}
+
+.main__pgraph-characteristics {
+    color: var(--gris);
+}
