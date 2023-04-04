@@ -1,0 +1,37 @@
+:root {
+    /* Widths */
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    /* Colors */
+    --verde: hsl(171, 66%, 44%);
+    --azul: hsl(233, 100%, 69%);
+    --azul-oscuro: hsl(210, 10%, 33%);
+    --gris: hsl(201, 11%, 66%);
+
+
+
+    /* Typography */
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-size: 1.8rem;
+
+}
+
+
+*, 
+::after,
+::before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;     
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
