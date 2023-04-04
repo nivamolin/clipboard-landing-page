@@ -135,3 +135,22 @@ p{
 .main__pgraph-characteristics {
     color: var(--gris);
 }
+
+/* ---- Section anywhere ---- */
+
+.anywhere {
+    padding: 0px 15px;
+}
+
+.anywhere__title {
+    margin-bottom: 20px;
+}
+
+.anywhere__pgraph {
+    margin-bottom: 70px;
+}
+
+.anywhere__image {
+    width: 100%;
+    margin-bottom: 100px;
+}
