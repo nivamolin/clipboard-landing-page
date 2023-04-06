@@ -154,3 +154,35 @@ p{
     width: 100%;
     margin-bottom: 100px;
 }
+
+
+/* ---- section super-charge ---- */
+
+.super-charge {
+    padding: 0px 15px;
+    margin-bottom: 100px;
+}
+
+.super-charge__pgraph {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--gris);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.super-charge__title-two {
+    margin-bottom: 20px;
+}
+
+.super-charge__title-two {
+    margin-top: 40px;
+}
+
+
