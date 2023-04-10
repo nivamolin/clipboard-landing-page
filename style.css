@@ -182,4 +182,17 @@ p{
     margin-top: 30px;
 }
 
+/* ---- section companies ---- */ 
+
+
+.companies__image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.companies__image:nth-of-type(5) {
+    margin-bottom: 120px;
+}
+
 
