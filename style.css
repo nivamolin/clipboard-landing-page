@@ -169,12 +169,9 @@ p{
 }
 
 
-.icon {
-    width: 50px;
-    height: 50px;
-    background-color: var(--gris);
-    margin: 0 auto;
-    margin-top: 50px;
+.super-charge__icon:nth-of-type(1),
+.super-charge__icon:nth-of-type(2) {
+    margin-top: 70px;
 }
 
 .super-charge__title-two {
@@ -182,7 +179,7 @@ p{
 }
 
 .super-charge__title-two {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
