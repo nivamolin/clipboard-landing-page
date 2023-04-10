@@ -196,3 +196,19 @@ p{
 }
 
 
+/* ---- Section Clipboard ----*/
+
+.clipboard {
+    padding: 0px 15px;
+    margin-bottom: 120px;
+}
+
+.clipboard__title {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.clipboard__pgraph {
+    margin-bottom: 50px;
+}
+
